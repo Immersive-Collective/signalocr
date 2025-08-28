@@ -1,3 +1,4 @@
+
 # SignalOCR (macOS Vision OCR)
 
 Batch-OCR Signal screenshots on macOS using Apple’s **Vision** framework, export them as searchable text, and automatically extract URLs.
@@ -15,16 +16,17 @@ Batch-OCR Signal screenshots on macOS using Apple’s **Vision** framework, expo
 ## 🛠 Requirements
 - macOS (uses Quartz & Vision frameworks)
 - Python 3.9+  
-- Install dependencies:
-  ```bash
-  python3 -m venv venv
-  source venv/bin/activate
-  pip install pyobjc
-```
+
+Install dependencies:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install pyobjc
+````
 
 ## 📂 Project Structure
 
-```
+```text
 signalocr/
 │── app.py          # main script
 │── images/         # put your Signal screenshots here
@@ -36,7 +38,7 @@ signalocr/
 
 Run the script with:
 
-```
+```bash
 python3 app.py images output "en-US,pl-PL"
 ```
 
@@ -49,11 +51,11 @@ Arguments:
 
 Example:
 
-```
+```bash
 python3 app.py ~/Documents/signalocr/images ~/Documents/signalocr/output "en-US,pl-PL"
 ```
-![run2_3x_LOOP_FOREVER](https://github.com/user-attachments/assets/fb93e042-be13-46cc-b6c7-639113fe5abc)
 
+![run2\_3x\_LOOP\_FOREVER](https://github.com/user-attachments/assets/fb93e042-be13-46cc-b6c7-639113fe5abc)
 
 ## 📑 Example Output
 
@@ -67,7 +69,7 @@ After running:
 
 Terminal log:
 
-```
+```text
 OCR: IMG_9101.PNG -> output/txt/IMG_9101.txt (245 chars, 2 links)
 OCR: IMG_9102.PNG -> output/txt/IMG_9102.txt (532 chars, 0 links)
 
@@ -88,4 +90,4 @@ Signal does not provide an easy export for conversations. With this tool, you ca
 * Extract links from long conversations
 * Make chats searchable and analyzable
 
----
+```
