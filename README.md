@@ -36,7 +36,7 @@ signalocr/
 
 Run the script with:
 
-```bash
+```
 python3 app.py images output "en-US,pl-PL"
 ```
 
@@ -49,7 +49,7 @@ Arguments:
 
 Example:
 
-```bash
+```
 python3 app.py ~/Documents/signalocr/images ~/Documents/signalocr/output "en-US,pl-PL"
 ```
 ![run2_3x_LOOP_FOREVER](https://github.com/user-attachments/assets/fb93e042-be13-46cc-b6c7-639113fe5abc)
