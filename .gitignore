@@ -1,5 +1,9 @@
-docs/
 images/
 output/
+docs/output1/
+*.mov
+*.mp4
+*.gif
+*.png
 .DS_Store
-images1/
+
