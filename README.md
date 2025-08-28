@@ -89,5 +89,3 @@ Signal does not provide an easy export for conversations. With this tool, you ca
 * Archive chats in plain text
 * Extract links from long conversations
 * Make chats searchable and analyzable
-
-```
